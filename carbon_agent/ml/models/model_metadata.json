@@ -1,0 +1,48 @@
+{
+  "best_model_name": "Linear Regression",
+  "metrics": {
+    "mae": 5.2981,
+    "rmse": 6.017,
+    "r2": 0.9991
+  },
+  "all_benchmarks": {
+    "Linear Regression": {
+      "mae": 5.2981,
+      "rmse": 6.017,
+      "r2": 0.9991
+    },
+    "Decision Tree": {
+      "mae": 18.1201,
+      "rmse": 22.466,
+      "r2": 0.9875
+    },
+    "Random Forest": {
+      "mae": 13.7553,
+      "rmse": 19.8122,
+      "r2": 0.9903
+    },
+    "Gradient Boosting": {
+      "mae": 13.9555,
+      "rmse": 17.9643,
+      "r2": 0.992
+    },
+    "XGBoost": {
+      "mae": 9.3294,
+      "rmse": 12.0151,
+      "r2": 0.9964
+    }
+  },
+  "feature_columns": [
+    "month_idx",
+    "transport_km",
+    "vehicle_efficiency_factor",
+    "electricity_kwh",
+    "lpg_kg",
+    "diet_code",
+    "waste_kg",
+    "recycling_pct",
+    "lag1_co2e",
+    "rolling_3m_co2e"
+  ],
+  "samples_count": 84
+}
